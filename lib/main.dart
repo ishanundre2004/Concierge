@@ -33,6 +33,7 @@
 import 'dart:io';
 import 'dart:convert';
 import 'package:concierge/chat_screen.dart';
+import 'package:concierge/notification_service.dart';
 import 'package:concierge/wrapper.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -42,6 +43,8 @@ import 'package:image_picker/image_picker.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+  final notificationService = NotificationService();
+  await notificationService.init();
   runApp(MyApp());
 }
 

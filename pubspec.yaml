@@ -90,6 +90,7 @@ flutter:
   assets:
     - assets/Hey-Concierge_en_android_v3_0_0.ppn
     - assets/voice_recognition.json
+    - assets/typing.json
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
