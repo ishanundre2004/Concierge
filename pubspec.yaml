@@ -61,6 +61,7 @@ dependencies:
   image: ^4.5.3
   uuid: ^4.5.1
   lottie: ^3.3.1
+  qr: ^3.0.2 
  
   
 dev_dependencies:
@@ -88,6 +89,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/Hey-Concierge_en_android_v3_0_0.ppn
+    - assets/voice_recognition.json
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
